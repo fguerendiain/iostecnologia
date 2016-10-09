@@ -38,6 +38,7 @@ h6, .h6 {
 
 .blog-masthead {
   background-color: #428bca;
+  text-align: center;
 }
 
 /* Nav links */
@@ -199,4 +200,16 @@ h6, .h6 {
 
 .clickable{
   cursor:pointer;
+}
+
+.contact{
+  background-image:url("../img/contacto.jpg");
+  background-size: 100%;
+}
+
+.contactDataBox{
+  background-color: rgba(0,0,0,0.85);
+  padding: 40px 0;
+  color: #999;
+  text-align: center;
 }

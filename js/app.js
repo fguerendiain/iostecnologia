@@ -35,6 +35,8 @@ var menuItemContacto = {
 var menuItems = [menuItemEmpresa, menuItemServicios, menuItemTrabajos, menuItemContacto];
 var defaultMenuItem = menuItemEmpresa;
 
+
+
 var loadContent = function(url){
 	$.ajax(url).done(function(data) {
 		$("#content").html(data);
@@ -113,3 +115,4 @@ for (var i in menuItems){
 if (!found){
 	onClickMenu(defaultMenuItem, false);
 }
+
