@@ -205,6 +205,7 @@ h6, .h6 {
 .contact{
   background-image:url("../img/contacto.jpg");
   background-size: 100%;
+  border-radius: 5px;
 }
 
 .contactDataBox{
@@ -212,4 +213,22 @@ h6, .h6 {
   padding: 40px 0;
   color: #999;
   text-align: center;
+}
+
+.serviceDataBox{
+  background-color: rgba(0,0,0,0.85);
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  color: #999;
+}
+
+.well{
+  background-color: #000000;
+  color: #FFFFFF;
+}
+
+p.primeralinea {
+  text-indent: 40px;
 }

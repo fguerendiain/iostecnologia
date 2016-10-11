@@ -116,3 +116,6 @@ if (!found){
 	onClickMenu(defaultMenuItem, false);
 }
 
+$(".btn-block").click(function(){
+        $(".collapse").collapse('toggle');
+    });
