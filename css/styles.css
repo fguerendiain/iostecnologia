@@ -173,6 +173,7 @@ h6, .h6 {
   border-radius:0 0 5px 5px;
   text-align:right;
   background-image:url("../img/banner.png");
+  background-size: 100%;
 }
 
 #banner img{
@@ -231,4 +232,10 @@ h6, .h6 {
 
 p.primeralinea {
   text-indent: 40px;
+}
+
+#logoProv{
+  padding-top: 20px;
+  padding-left: 20px;
+  font-size: 200%;
 }

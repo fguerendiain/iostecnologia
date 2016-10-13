@@ -1,0 +1,4 @@
+RewriteEngine on
+Redirect 301 /empresa.html /empresa.html
+Redirect 301 /servicios.html /servicios.html
+Redirect 301 /contacto.html /contacto.html
