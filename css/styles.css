@@ -171,14 +171,15 @@ h6, .h6 {
   padding:0;
   margin-bottom:20px;
   border-radius:0 0 5px 5px;
-  text-align:right;
   background-image:url("../img/banner.png");
   background-size: 100%;
 }
 
-#banner img{
-  margin-right:20px;
-  margin-top:8px;
+#logo{
+  margin-top: 20px;
+  margin-left: 850px;
+  width: 10%;
+
 }
 
 .contentContainer{
@@ -232,10 +233,4 @@ h6, .h6 {
 
 p.primeralinea {
   text-indent: 40px;
-}
-
-#logoProv{
-  padding-top: 20px;
-  padding-left: 20px;
-  font-size: 200%;
 }
